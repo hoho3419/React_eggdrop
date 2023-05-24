@@ -4,6 +4,7 @@ const cartSlice = createSlice({
   name: 'cart',
   initialState: { 
     cartItems: [],
+    cartVisible: false,
   },
   reducers:{
     fetchCartItem(state){
@@ -38,6 +39,12 @@ const cartSlice = createSlice({
       });
       localStorage.setItem('cart', JSON.stringify(state.cartItems));
     },
+    ShowCart(state){
+      state.cartVisible = true;
+    },
+    HideCart(state){
+      state.cartVisible = false;
+    }
   }
 })
 

@@ -4,9 +4,10 @@ import styles from "./Cart.module.css";
 import { useSelector,useDispatch } from 'react-redux'
 import { cartAction } from "../../store/cart-slice";
 
-const Cart = (props) => {
+const Cart = () => {
   const dispatch = useDispatch();
   const cartItem = useSelector(state => state.cart.cartItems);
+
   function removeItemHandler(id){
     dispatch(cartAction.removeToCart(id));
   }
@@ -30,14 +31,14 @@ const Cart = (props) => {
   );
 
   return (
-    <Modal onClick={props.onHideCart}>
+    <Modal onClick={() => dispatch(cartAction.HideCart())}>
       <div className={styles.total}>
         <span>메뉴</span>
         <span>가격</span>
       </div>
       {CartItems}
       <div className={styles.actions}>
-        <button onClick={props.onHideCart} className={styles["button--alt"]}>
+        <button onClick={() => dispatch(cartAction.HideCart())} className={styles["button--alt"]}>
           닫기
         </button>
       </div>
