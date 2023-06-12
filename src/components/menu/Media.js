@@ -13,7 +13,6 @@ const Media = () => {
             <h2>MENU</h2>
             <section>
                 <div className={styles['youtube']}>
-                    
                     <Youtube 
                     key={'6EbGVp_0vQw'}
                     videoId='6EbGVp_0vQw'

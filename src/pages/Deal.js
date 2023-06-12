@@ -24,6 +24,7 @@ const Deal = () =>{
             navigate('/')
         }
     },[navigate,id])
+    
     useEffect(() =>{
         scrollToTop()
     },[])
