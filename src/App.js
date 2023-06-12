@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useDispatch,useSelector } from 'react-redux';
 import { cartAction } from './store/cart-slice';
 import './App.css';
-// import Header from './components/layout/Header';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import Deal from './pages/Deal';
@@ -30,11 +29,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        {/* <Header
-          onHideCart={() => setCartShowState(false)}
-          onShowCart={() => setCartShowState(true)}
-          cartState={cartShowState}
-        /> */}
         <TheHeader />
         {cartVisible && <Cart/>}
         <Routes>
