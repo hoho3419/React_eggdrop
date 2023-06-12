@@ -38,7 +38,7 @@ const MainSlide = () => {
 							key={el.item_no}
 							src={el.src}
 							alt='메인배너'
-							style={{ width: "100%", height: '100%' }}
+							
 						/>
 					</StyledSwiperSlide>
 				))}
@@ -75,7 +75,6 @@ const StyledContainer = styled.div`
   overflow-y: hidden;
   background-size: cover;
   position: relative;
-  height: 100vh;
 `;
 
 const DotBox1 = styled.div`
@@ -102,9 +101,10 @@ const StyledSwiperSlide = styled(SwiperSlide)`
 `;
 
 const Img1 = styled.img`
-  object-fit: cover;
-  width: 100%;
-  @media screen and (max-width: 768px) {
-    height: 100%;
+  object-fit: cover !important;
+	height: 80vh !important;
+  width: 100% !important;
+	@media (max-width: 768px) {
+    height: 40vh !important;
   }
 `;
