@@ -23,3 +23,13 @@ https://eggdrop-e3ed5.web.app/
 나의 기술 스택
 JavaScript	HTML	CSS	React	Node
 js	html	css	react	node  redux styled-components
+
+DeskTop
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/bfe26034-236f-42e0-a6c8-632e29b65411)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/af4c4d81-55b7-47aa-9a56-92414788034e)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/78c1b022-4b7f-42bd-82b8-0e97e024e8cd)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/90ccaae7-b6c6-4b3b-afa3-644ccac689bb)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/ce839201-f388-4560-8186-ff3847cfc4eb)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/eb3e21c6-8e38-488e-9600-8d8b17e54140)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/a4a7be23-629f-47be-92d0-d1d3d450ebda)
+
