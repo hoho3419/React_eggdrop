@@ -25,4 +25,9 @@ styled-components <br>
 ![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/ce839201-f388-4560-8186-ff3847cfc4eb)
 ![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/eb3e21c6-8e38-488e-9600-8d8b17e54140)
 ![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/a4a7be23-629f-47be-92d0-d1d3d450ebda)
-
+## UI Mobile View📌
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/1b40cb85-a9f3-468c-922b-562570395601)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/75f35e73-bcbc-4feb-a351-f1b5dff752ab)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/bbe9ec1b-a9ed-451c-8709-055e01ea444d)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/636f8991-7014-4750-914c-4e0d44d9bdaa)
+![image](https://github.com/hoho3419/React_eggdrop/assets/106577276/05cfa902-3564-47c8-9f1f-9b496313afe0)
